@@ -1,0 +1,7 @@
+THE FOLLOWING RULES ARE MANDATORY:
+
+1. Before working on a task (e.g. 1.1.2), YOU MUST FIRST execute the following script: ./developer-admin/start-task.sh <task-id>
+2. Before coding or creating/modifying anything in the filesystem for a task, YOU MUST FIRST outline exactly what actions you intend to task within the task. YOU MUST THEN STOP AND WAIT FOR HUMAN APPROVAL TO PROCEED WITH THE TASK
+3. When the human approves the task plan from step 2, please save the plan to task-plan-<task-id>.md, then continue to action the plan
+4. When the task is complete, and you have verified all steps have been completed, YOU MUST THEN execute the following script: ./developer-admin/complete-task.sh <task-id>
+5. YOU MUST THEN STOP AND WAIT FOR HUMAN APPROVAL TO PROCEED TO THE NEXT TASK
