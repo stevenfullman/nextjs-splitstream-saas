@@ -14,7 +14,7 @@
 
 ### 1.2. Authentication Setup (Clerk)
 
--   [ ] **1.2.1.** Create Clerk application and configure basic settings (allowed origins, providers).
+-   [x] **1.2.1.** Create Clerk application and configure basic settings (allowed origins, providers).
 -   [ ] **1.2.2.** Integrate Clerk frontend components/SDK into the basic dashboard for Sign Up.
 -   [ ] **1.2.3.** Integrate Clerk frontend components/SDK into the basic dashboard for Sign In.
 -   [ ] **1.2.4.** Implement session management/checking on the frontend dashboard.
