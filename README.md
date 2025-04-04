@@ -12,4 +12,4 @@ Instructions for setting up the development environment will go here.
 
 ## Project Structure
 
-Details about the project structure will go here.
+Details about the project structure will go here...
