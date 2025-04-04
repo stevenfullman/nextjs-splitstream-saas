@@ -10,7 +10,7 @@
 -   [x] **1.1.4.** Initialize backend project (e.g., using Next.js API routes).
 -   [x] **1.1.5.** Initialize basic frontend dashboard project (HTML/CSS/JS structure).
 -   [x] **1.1.6.** Setup Supabase project (database instance, API keys).
--   [ ] **1.1.7.** Configure initial deployment pipeline (e.g., Vercel, Heroku) with HTTPS.
+-   [x] **1.1.7.** Configure initial deployment pipeline (e.g., Vercel, Heroku) with HTTPS.
 
 ### 1.2. Authentication Setup (Clerk)
 
