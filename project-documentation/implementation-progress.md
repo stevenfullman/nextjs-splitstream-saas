@@ -4,7 +4,7 @@
 
 ### 1.1. Project Initialization & Environment Setup
 
--   [ ] **1.1.1.** Set up Git version control repository (e.g., GitHub, GitLab).
+-   [x] **1.1.1.** Set up Git version control repository (e.g., GitHub, GitLab).
 -   [ ] **1.1.2.** Define project structure for SaaS application (e.g., backend API, frontend dashboard, shared packages).
 -   [ ] **1.1.3.** Configure local development environment (Node.js version, package manager - npm/yarn).
 -   [ ] **1.1.4.** Initialize backend project (e.g., using Next.js API routes).
