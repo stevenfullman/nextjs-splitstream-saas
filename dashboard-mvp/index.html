@@ -5,9 +5,30 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>SplitStream Dashboard MVP</title>
 		<link rel="stylesheet" href="styles.css" />
+		<!-- Clerk Script - Loads ClerkJS SDK -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/@clerk/clerk-js@latest/dist/clerk.browser.js"
+			async
+			crossorigin="anonymous"
+			onload="window.Clerk = new window.Clerk('YOUR_PUBLISHABLE_KEY'); window.Clerk.load();"
+		></script>
 	</head>
 	<body>
 		<h1>SplitStream Dashboard MVP</h1>
+
+		<div id="logged-out-content">
+			<h2>Please Sign Up or Sign In</h2>
+			<!-- Clerk Sign Up/Sign In component will be mounted here -->
+			<div id="auth-container"></div>
+		</div>
+
+		<div id="logged-in-content" style="display: none">
+			<h2>Welcome!</h2>
+			<p>You are logged in. (Placeholder Content)</p>
+			<!-- Add user button or other logged-in UI later -->
+		</div>
+
+		<!-- Load our custom script *after* Clerk might be initialized -->
 		<script src="script.js"></script>
 	</body>
 </html>
